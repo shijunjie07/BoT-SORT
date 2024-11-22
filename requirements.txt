@@ -25,6 +25,6 @@ termcolor
 gdown
 onnx
 onnxruntime
-onnx-simplifie
+onnx-simplifier==0.3.5
 
 
