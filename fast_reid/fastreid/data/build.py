@@ -9,7 +9,7 @@ import os
 
 import torch
 string_classes = str
-from collections import Mapping
+from collections.abc import Mapping
 
 from fast_reid.fastreid.config import configurable
 from fast_reid.fastreid.utils import comm
