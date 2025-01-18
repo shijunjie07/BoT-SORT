@@ -321,7 +321,7 @@ if __name__ == "__main__":
 
                 if MOT == 20:  # MOT20
                     args.exp_file = r'./yolox/exps/example/mot/yolox_x_mix_mot20_ch.py'
-                    args.ckpt = r'./pretrained/bytetrack_x_mot20.tar'
+                    args.ckpt = r'./pretrained/bytetrack_x_mot20.pth.tar'
                     args.match_thresh = 0.7
                 else:  # MOT17
                     if ablation:
